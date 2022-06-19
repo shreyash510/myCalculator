@@ -83,3 +83,12 @@ body{
     border-radius: 100px;
     margin: 0.2em; 
 }
+
+.myself p{
+    /* position: absolute;
+    bottom: 20px;
+    right :40%; */
+    color: white;
+    /* font-size: 20px; */
+    
+}
