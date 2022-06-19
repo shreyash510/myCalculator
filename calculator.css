@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 99.5vh;
+    width: 99.5vw;
+    background-color: rgb(20, 19, 19);
+}
+
+.calBody{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;    
+}
+
+.theme{
+    display: flex;
+    justify-content: space-between;
+}
+.theme h2{
+    color: white;
+    margin-left: 20px;
+}
+.theme button{
+    background: transparent;
+    outline: none;
+    border: none;
+    margin: 15px 30px;
+    cursor: pointer;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonArea input {
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em; 
+      
+}
+
+.inputArea #cBtn{
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(218, 51, 51);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em;     
+}
+
+.inputArea input{
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em; 
+}

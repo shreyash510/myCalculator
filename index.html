@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="calculator.css" id="themeChange">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="calBody">
+            <div class="theme">
+                <h2>Calculator</h2>
+                <button onclick="modes()" id="modeBtn">
+                    <img src="./assets/SunIcon.svg" alt="" id="imgBtn">
+                </button>
+            </div>
+            <div class="inputArea">
+                <input type="text" name="result" id="result" value="" placeholder="Result" readonly>
+                <!--result -->
+                <input type="button" onclick="result.value=''" value="C" id="cBtn"/>
+            </div>
+            <div class="buttonArea" id="buttons">
+                <div class="first-row">
+                    <input type="button" value="1" onclick="liveClick(1)" />
+                    <input type="button" value="2" onclick="liveClick(2)" />
+                    <input type="button" value="3" onclick="liveClick(3)" />
+                    <input type="button" value="+" onclick="liveClick('+')" />
+                </div>
+                <div class="first-row">
+                    <input type="button" value="4" onclick="liveClick(4)" />
+                    <input type="button" value="5" onclick="liveClick(5)" />
+                    <input type="button" value="6" onclick="liveClick(6)" />
+                    <input type="button" value="-" onclick="liveClick('-')" />
+                </div>
+                <div class="first-row">
+                    <input type="button" value="7" onclick="liveClick(7)" />
+                    <input type="button" value="8" onclick="liveClick(8)" />
+                    <input type="button" value="9" onclick="liveClick(9)" />
+                    <input type="button" value="*" onclick="liveClick('*')" />
+                </div>
+                <div class="first-row">
+                    <input type="button" value="/" onclick="liveClick('/')" />
+                    <input type="button" value="0" onclick="liveClick(0)" />
+                    <input type="button" value="." onclick="liveClick('.')" />
+                    <input type="button" value="=" onclick="calculate(result.value)" />
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src=" calculator.js"></script>
+</body>
+
+</html>
